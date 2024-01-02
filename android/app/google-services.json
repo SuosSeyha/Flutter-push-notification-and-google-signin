@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77624928370",
+    "project_id": "push-notivication-f90b7",
+    "storage_bucket": "push-notivication-f90b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77624928370:android:c43dddfc6629ff0c02baeb",
+        "android_client_info": {
+          "package_name": "com.example.test_notivication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnZLKP7xz5DnJyHRN__QJZRkkEIUfdDS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
