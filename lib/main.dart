@@ -39,6 +39,8 @@ class MyApp extends StatelessWidget {
 //=========== FOR Google Signin Main() ================
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
+import 'package:test_notivication/facebook_signin/page/facebook_page.dart';
 import 'package:test_notivication/google_singin/page/login_page.dart';
 
 void main() async{
@@ -57,7 +59,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home:  const GoogleSignInScreen(),
+     // home:  const GoogleSignInScreen(),
+     home:  FacebookPage(),
     );
   }
 }
