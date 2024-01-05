@@ -42,6 +42,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:test_notivication/facebook_signin/page/facebook_page.dart';
 import 'package:test_notivication/google_singin/page/login_page.dart';
+import 'package:test_notivication/phone_number_login/page/phoneNumber_login.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -60,7 +61,8 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
      // home:  const GoogleSignInScreen(),
-     home:  FacebookPage(),
+   // home:  FacebookPage(),
+    home:  PhoneNumberLogin(),
     );
   }
 }
